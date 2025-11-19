@@ -1,0 +1,41 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e8]: CI/CD Demo
+      - navigation
+  - main [ref=e9]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - heading "Welcome Back" [level=1] [ref=e15]
+        - paragraph [ref=e16]: Sign in to access your dashboard
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]: Email Address *
+          - textbox "Email Address *" [ref=e20]:
+            - /placeholder: admin@example.com
+            - text: admin@example.com
+        - generic [ref=e21]:
+          - generic [ref=e22]: Username (optional)
+          - textbox "Username (optional)" [ref=e23]:
+            - /placeholder: For display only
+        - generic [ref=e24]:
+          - generic [ref=e25]: Password (optional)
+          - textbox "Password (optional)" [ref=e26]:
+            - /placeholder: Not validated yet
+        - generic [ref=e27]: "Failed to execute 'json' on 'Response': Unexpected end of JSON input"
+        - button "Sign In" [active] [ref=e28] [cursor=pointer]
+      - generic [ref=e29]:
+        - paragraph [ref=e31]:
+          - text: Don't have an account?
+          - link "Sign up here" [ref=e32] [cursor=pointer]:
+            - /url: /register
+        - generic [ref=e33]:
+          - paragraph [ref=e34]: Placeholder authentication • Only email is validated against database
+          - paragraph [ref=e35]: Password/username fields are optional for now • Will integrate with SSO in later sessions
+          - paragraph [ref=e36]: "Try: admin@example.com"
+  - contentinfo [ref=e37]:
+    - generic [ref=e38]: "API base: (dev proxy)"
+```
